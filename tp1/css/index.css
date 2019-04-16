@@ -181,36 +181,47 @@ ul{
     margin-right: 10%;
 }
 
-ul li{
+footer ul li{
     background-color: rgb(211, 7, 119);
     float: right;
     width: 10%;
     padding: 10px;
 }
 
-ul li a{
+footer ul li a{
     text-decoration: none;
     color: white;
     text-align: center;
     display:  block;
 }
 
-ul li:last-child{
-    border-right: none;
-}
-
-ul li:hover{
-    background-color: rgba(24, 171, 205,1);  ;
-}
-
 footer h3{
     clear: right;
+    color: #f2f2f2;
 }
 
 .copyright{
     text-align: center;
 }
 
-footer span{
+.p-footer{
     width: 30%;
+}
+
+ul li{
+    padding: 15px 0; 
+}
+
+ul li:hover{
+    background-color: rgba(24, 171, 205,1);  ;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgba(24, 171, 205,1);
+    width: 80%;        
+}
+
+ul li a:hover{
+    color: white;
 }
